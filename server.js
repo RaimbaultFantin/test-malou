@@ -8,8 +8,8 @@ const app = express();
 app.get('/api/posts/:date', async (req, res) => {
   // valid Date format : YYYY-MM-DD
   await fetch('https://api.producthunt.com/v1/posts?day='+req.params.date, config)
-    .then(response => response.json())
-    .then(json => res.send(json))
+    .then(response =>response.json())
+    .then(data => res.json(data))
 });
 
 const port = 5000;
