@@ -35,8 +35,8 @@ npm run client
 
 ### Infos
 
-La responsivité n'est pas très bien géré
-Le fichier .env a volontairement été laissé, si vous voulez utiliser votre propre clef token, il suffit de vous créer un compte API à Product Hunt.
+La responsivité n'est pas très bien gérée.
+Le fichier .env a volontairement été laissé, si vous voulez utiliser votre propre clef token, il suffit de vous créer un compte API à Product Hunt et de remplacer la clef dans le fichier .env.
 
 ### Note
 Le code serveur n'est pas utile ici car il s'agit simplement d'un appel à une API externe.
