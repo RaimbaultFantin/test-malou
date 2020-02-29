@@ -1,7 +1,7 @@
 {
-  "name": "reactexpress",
+  "name": "testmalou",
   "version": "1.0.0",
-  "description": "Starter kit for creating React and Express apps",
+  "description": "react & express app for Malou",
   "main": "server.js",
   "scripts": {
     "client-install": "cd client && npm install",

@@ -7,11 +7,10 @@ export default function Pagination({ postsPerPage, totalPosts, paginate }) {
     for (let i = 1; i <= Math.ceil(totalPosts / postsPerPage); i++) {
         pageNumbers.push(i);
     }
-
     return (
         <Row className="justify-content-center">
-            <nav>
-                <ul className='pagination'>
+            <nav >
+                <ul style={{margin : 'auto'}} className='pagination'>
                     {pageNumbers.map(number => (
                         <li key={number} className='page-item'>
                             <a onClick={() => paginate(number)} className='page-link'>
