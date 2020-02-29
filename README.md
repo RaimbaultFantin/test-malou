@@ -47,3 +47,5 @@ L'appel aurait pu être géré côté client.
 ### Auteur
 
 Raimbault Fantin
+
+![alt text](https://media.discordapp.net/attachments/430756780394414100/683421581166641180/unknown.png)
