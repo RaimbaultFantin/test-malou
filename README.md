@@ -15,6 +15,8 @@
 # Installer NodeJS
 https://nodejs.org/en/
 
+# Via un invité de commande, placez vous à la racine du projet et effectuez les commandes suivantes ...
+
 # Installer les dépendences pour le serveur
 npm install
 
